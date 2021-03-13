@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calendar</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Signika:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="Theme-black">
+        <h1>My Calendar</h1>
+        <div>
+            <input type="text" placeholder="Type something..." id="cal-input"></input>
+            <input type="color" id="cal-color"></input>
+            <button id="cal-button">Add to Calendar</button>
+        </div>
+        <div>
+            <table id='Cal-main'>
+                <tr class="Cal-title-row">
+                  <td>Sunday</td>
+                  <td>Monday</td>
+                  <td>Tuesday</td>
+                  <td>Wednesday</td>
+                  <td>Thursday</td>
+                  <td>Friday</td>
+                  <td>Saturday</td>
+                </tr>
+                <tr class="Cal-content-row">
+                  <td class='date'>4</td>
+                  <td class='date'>5</td>
+                  <td class='date'>6</td>
+                  <td class='date'>7</td>
+                  <td class='date'>8</td>
+                  <td class='date'>9</td>
+                  <td class='date'>10</td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date'>11</td>
+                    <td class='date'>12</td>
+                    <td class='date'>13</td>
+                    <td class='date'>14</td>
+                    <td class='date'>15</td>
+                    <td class='date'>16</td>
+                    <td class='date'>17</td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date'>18</td>
+                    <td class='date'>19</td>
+                    <td class='date'>20</td>
+                    <td class='date'>21</td>
+                    <td class='date'>22</td>
+                    <td class='date'>23</td>
+                    <td class='date'>24</td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date'>25</td>
+                    <td class='date'>26</td>
+                    <td class='date'>27</td>
+                    <td class='date'>28</td>
+                    <td class='date'>29</td>
+                    <td class='date'>30</td>
+                    <td class='date'>31</td>
+                </tr>
+              </table>
+        </div>
+        <div>
+            <button class="ChooseTheme" id="Theme-black"></button>
+            <button class="ChooseTheme" id="Theme-red"></button>
+            <button class="ChooseTheme" id="Theme-blue"></button>
+            <button class="ChooseTheme" id="Theme-purple"></button>
+            <button class="ChooseTheme" id="Theme-ocean"></button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

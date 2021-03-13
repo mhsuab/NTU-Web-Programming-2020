@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 10%;
+    height: 100vh;
+    background: linear-gradient(rgba(var(--bg-0), 1), rgba(var(--bg-1), 1));
+}
+table {
+    table-layout: fixed ;
+}
+body > h1{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: var(--main);
+}
+#cal-input, #cal-color, #cal-button{
+    height: 5vh;
+    display: inline-block;
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    padding: 1vh;
+    margin: 1vh 0 2vh 0;
+    vertical-align: top;
+    color: var(--main);
+    background: none;
+}
+#cal-input{ 
+    width: 57%;
+}
+#cal-color{
+    width: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#cal-button{
+    width: 30%;
+}
+#cal-button:hover{
+    background: var(--hover);
+}
+#Cal-main {
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    padding: 2%;
+    color: var(--main);
+    font-family: 'Signika', sans-serif;
+}
+.Cal-title-row > * {
+    height: 5vh;
+    text-align: center;
+}
+.Cal-content-row > * {
+    height: 15vh;
+    padding: 2vh;
+} 
+
+.date{
+    text-align: top;
+    vertical-align: top;
+}
+
+.date-clicked {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.date:not(.date-clicked):hover {
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 25px;
+}
+
+/*****************Themes*****************/
+.Theme-black {
+    --main: black;
+    --box: black;
+    --text: white;
+    --hover: rgba(0, 0, 0, 0.103);
+    --bg-0: 255,255,255;
+    --bg-1: 255,255,255;
+}
+
+.Theme-red {
+    --main: rgb(255, 255, 255);
+    --box: rgba(255, 255, 255, 0.486);
+    --text: rgb(215,96,93);
+    --hover: rgba(255, 255, 255, 0.267);
+    --bg-0: 215,96,93;
+    --bg-1: 255,230,123;
+}
+
+.Theme-blue {
+    --main: rgb(26, 32, 112);
+    --box: rgba(49, 52, 99, 0.932);
+    --text: rgb(168, 212, 210);
+    --hover: rgba(136, 202, 156, 0.541);
+    --bg-0: 93,215,209;
+    --bg-1: 255,230,123;
+}
+
+.Theme-purple {
+    --main: rgb(255, 255, 255);
+    --box: rgba(255, 255, 255, 0.486);
+    --text: rgb(49,46,140);
+    --hover: rgba(255, 255, 255, 0.267);
+    --bg-0: 49,46,140;
+    --bg-1: 255,177,123;
+}
+
+.Theme-ocean {
+    --main: #0067a5;
+    --box: #434c5e;
+    --text: #0067a5;
+    --hover: #d8dee9;
+    --bg-0: 0, 119, 190;
+    --bg-1: 200,230,200;
+}
+
+.ChooseTheme{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--main);
+    margin: 2vh 2% 0 0; 
+}
+
+#Theme-black { background-color: rgba(0, 0, 0, 0.5); }
+#Theme-red{ background-color:rgba(215, 95, 93, 0.5); }
+#Theme-blue{ background-color: rgba(93, 215, 209, 0.5); }
+#Theme-purple{ background-color: rgba(49,46,140, 0.5); }
+#Theme-ocean{ background-color: #0067a5;}

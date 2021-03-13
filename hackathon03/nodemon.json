@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "server"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "server/**/*.spec.js"
+  ],
+  "exec": "babel-node server/server.js"
+}

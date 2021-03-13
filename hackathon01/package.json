@@ -1,0 +1,22 @@
+{
+  "name": "109-1webprog-hackathon01-boilerplate-temp",
+  "version": "1.0.0",
+  "description": "Boiler plate for first in-class hackathon.\r This is a personal calendar. You can add events onto it with desired color. You can also choose or make your own color theme of the whole calendar.",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/integration/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivianChan1998/109-1WebProg-Hackathon01-boilerPlate-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivianChan1998/109-1WebProg-Hackathon01-boilerPlate-temp/issues"
+  },
+  "homepage": "https://github.com/VivianChan1998/109-1WebProg-Hackathon01-boilerPlate-temp#readme",
+  "devDependencies": {
+    "cypress": "^5.3.0"
+  }
+}

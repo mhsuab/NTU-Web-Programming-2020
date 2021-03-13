@@ -1,0 +1,9 @@
+.row  {
+    display: flex;
+    flex-direction: row;
+}
+
+.gameBoard {
+    background-color: #333;
+    transition: 0.5s ease-out;
+}

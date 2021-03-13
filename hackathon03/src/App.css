@@ -1,0 +1,100 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #ECECEC;
+}
+
+#quiz-container {
+  width: 700px;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: calc(50% - 350px);
+}
+
+#question-box {
+  width: 700px;
+  margin: 150px 0 20px 0;
+}
+
+.question-box-inner {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #ECECEC;
+}
+
+#question-title {
+  width: 700px;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#options {
+  width: 700px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.each-option {
+  width: 650px;
+  height: 50px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #000000;
+}
+
+.each-option:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.each-option input {
+  position: relative;
+  left: 15px;
+}
+
+.each-option input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+.each-option span {
+  position: relative;
+  top: 1px;
+  left: 30px;
+}
+
+#actions {
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+#actions:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #FFFFFF;
+}
