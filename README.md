@@ -30,10 +30,10 @@ Introductory Course on Web Programming.
 
 ## Hackathons
 ### Hackathon 1
-[Personal Calendar](./hackthon01)
+[Personal Calendar](./hackathon01)
 
 ### Hackathon 2
-[Simple Sudoku Game](./hackthon02)
+[Simple Sudoku Game](./hackathon02)
 
 ### Hackathon 3
-[Simple QA System](./hackthon03)
+[Simple QA System](./hackathon03)
