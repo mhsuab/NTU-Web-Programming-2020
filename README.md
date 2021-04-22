@@ -3,6 +3,9 @@
 ## Course Info
 Introductory Course on Web Programming.
 
+## Final Project
+[Life Management](./final)
+
 ## Homeworks
 ### Homework 1
 [Image Viewer](./hw1)
