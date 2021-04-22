@@ -1,0 +1,3 @@
+[submodule "final"]
+	path = final
+	url = git@github.com:mhsuab/Life-Management.git
